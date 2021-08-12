@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Heebo";
+  src: url(https://cdn.discordapp.com/attachments/548137697382760460/589533986682961979/Heebo-Regular.ttf);
+}
+
+html {
+  color: #ffffff;
+  font-family: "Heebo";
+}
+
+#wrap {
+  width:25vw;
+  min-height: 180px;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: 4%;
+  margin-bottom: 10%;
+  background-color: rgb(22, 22, 22);
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  color: rgb(255, 255, 255);
+
+  border-radius: 20px 20px 20px 20px;
+}
+
+p {
+  float: left;
+  margin-left: 15px;
+  padding-left: 10px;
+  font-size: 1.05vw;
+}
+
+.header {
+  font-family: "Heebo";
+  height: 100px;
+  font-size: large;
+  width: auto;
+
+  background-image: url("https://cdn.discordapp.com/attachments/695212809780461599/875373619138658324/Maor_scoreboard.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 60px;
+  background-size: 96% 96%;
+  background-position: center;
+
+  margin-top: 20px;
+  height: 120;
+  border-top-left-radius: 10px 2px;
+  border-top-right-radius: 5px 2px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  
+}
+.header span {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  
+}
+
+.jobs {
+  font-family: "Heebo";
+  padding-top: 130px;
+  /* text-align: left; */
+
+  padding-left: 25%;
+  height: 0vw;
+  width: 100%;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+
+}
+
+.jobs p {
+  font-family: "Heebo";
+  
+}
+
+table {
+  text-align: left;
+  color: white;
+  
+}
+
+th,
+td {
+  padding-left: 25px;
+
+}
+
+th {
+  padding-top: 15px;
+  height: 40px;
+}
+
+tr {
+  font-size: 0.7vw;
+  font-family: "Heebo";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+tr.heading {
+	
+  font-size: 0.80vw;
+
+  
+ 
+  
+}
+
+.serverinfo {
+  font-size: 0.60vw;
+  text-align: center;
+ 
+  
+  
+  
+  
+}
+
+.discord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  float: left;
+  margin-left: 0;
+  
+}
+#avatar {
+  border-radius: 7rem;
+  height: 45px;
+  
+}

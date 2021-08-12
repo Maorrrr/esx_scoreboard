@@ -1,0 +1,40 @@
+
+
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+</head>
+
+<body>
+	<div style="display: none;" id="wrap">
+		<div class="header">
+				<div class="jobs">
+				</div>
+		</div>
+		<br/>
+
+		<div class="playerlist">
+			<table id="playerlist" width="99%">
+				
+				<tr class="heading">
+					<th>ID</th>
+					<th>Image</th>
+					<th>DISCORD</th>
+					<th>PING</th>
+				</tr>
+			</table>
+		</div>
+
+		<div class="serverinfo">
+			Queue Length: <span id="queue"></span> <span style="font-size: 0.7vw"; margin-top= "2%";>|</span>
+			Players: <span id="player_count">0</span> / <span id="max_players">32</span> <span style="font-size: 0.7vw"; margin-top= "2%";>|</span>
+			Play time: <span id="play_time"></span>
+		</div>
+
+	</div>
+</body>
+
+</html>
